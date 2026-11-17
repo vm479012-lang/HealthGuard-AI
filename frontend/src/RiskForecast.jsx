@@ -11,7 +11,7 @@ import {
   Legend,
 } from "recharts";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://healthguard-ai-5yi2.onrender.com";
 
 // Simple least-squares linear trend forecast
 function forecastValues(values, steps = 3) {

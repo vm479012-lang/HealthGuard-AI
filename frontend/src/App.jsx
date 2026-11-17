@@ -49,7 +49,7 @@ function App() {
   const [alertsError, setAlertsError] = useState("");
 
 useEffect(() => {
-  fetch("http://127.0.0.1:8000/api/dashboard")
+  fetch("https://healthguard-ai-5yi2.onrender.com/api/dashboard")
     .then((response) => {
       if (!response.ok) {
         throw new Error("API request failed");
@@ -72,7 +72,7 @@ useEffect(() => {
       setAnalyticsError("");
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/analytics/combined"
+        "https://healthguard-ai-5yi2.onrender.com/api/analytics/combined"
       );
 
       if (!response.ok) {
@@ -102,7 +102,7 @@ const fetchEarlyWarnings = useCallback(async () => {
     setAlertsLoading(true);
     setAlertsError("");
 
-    const response = await fetch("http://127.0.0.1:8000/api/alerts");
+    const response = await fetch("https://healthguard-ai-5yi2.onrender.com/api/alerts");
 
     if (!response.ok) {
       throw new Error("Unable to load early warnings.");

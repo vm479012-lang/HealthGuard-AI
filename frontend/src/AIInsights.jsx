@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://healthguard-ai-5yi2.onrender.com";
 
 function generateRecommendations(alert) {
   const reasons = alert.signals || [];

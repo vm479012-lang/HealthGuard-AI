@@ -78,7 +78,7 @@ function DataUpload() {
     formData.append("file", file);
 
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/upload/${datasetType}`, {
+      const response = await fetch(`https://healthguard-ai-5yi2.onrender.com/api/upload/${datasetType}`, {
         method: "POST",
         body: formData
       });

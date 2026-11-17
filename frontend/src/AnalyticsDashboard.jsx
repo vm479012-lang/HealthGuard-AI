@@ -33,7 +33,7 @@ function AnalyticsDashboard() {
         setError("");
 
         const response = await fetch(
-          "http://127.0.0.1:8000/api/analytics/combined"
+          "https://healthguard-ai-5yi2.onrender.com/api/analytics/combined"
         );
 
         if (!response.ok) {

@@ -60,7 +60,7 @@ function SettingsPage({ apiStatus = "Connecting", theme = "dark", setTheme }) {
             <span className={`connection-pill ${connected ? "online" : "offline"}`}>{apiStatus}</span>
           </div>
           <div className="settings-info-row"><span>Service</span><strong>FastAPI</strong></div>
-          <div className="settings-info-row"><span>API base URL</span><code>http://127.0.0.1:8000</code></div>
+          <div className="settings-info-row"><span>API base URL</span><code>https://healthguard-ai-5yi2.onrender.com</code></div>
           <div className="settings-info-row"><span>Environment</span><strong>Local demonstration</strong></div>
         </section>
 
