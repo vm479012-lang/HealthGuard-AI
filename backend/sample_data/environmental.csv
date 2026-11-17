@@ -1,0 +1,6 @@
+date,zone,temperature_c,humidity_pct,aqi
+2026-11-10,Zone A,34,65,110
+2026-11-11,Zone A,36,70,125
+2026-11-12,Zone A,39,75,145
+2026-11-10,Zone B,30,55,80
+2026-11-11,Zone B,31,58,85

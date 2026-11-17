@@ -1,0 +1,110 @@
+{
+  "workforce": {
+    "uploaded_at": "2026-11-17T07:17:49.054835+00:00",
+    "record_count": 5,
+    "records": [
+      {
+        "date": "2026-11-10",
+        "zone": "Zone A",
+        "absence_count": 12.0,
+        "workforce_count": 200.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone A",
+        "absence_count": 16.0,
+        "workforce_count": 200.0
+      },
+      {
+        "date": "2026-11-12",
+        "zone": "Zone A",
+        "absence_count": 22.0,
+        "workforce_count": 200.0
+      },
+      {
+        "date": "2026-11-10",
+        "zone": "Zone B",
+        "absence_count": 8.0,
+        "workforce_count": 150.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone B",
+        "absence_count": 9.0,
+        "workforce_count": 150.0
+      }
+    ]
+  },
+  "environmental": {
+    "uploaded_at": "2026-11-17T07:17:19.143474+00:00",
+    "record_count": 5,
+    "records": [
+      {
+        "date": "2026-11-10",
+        "zone": "Zone A",
+        "temperature_c": 34.0,
+        "humidity_pct": 65.0,
+        "aqi": 110.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone A",
+        "temperature_c": 36.0,
+        "humidity_pct": 70.0,
+        "aqi": 125.0
+      },
+      {
+        "date": "2026-11-12",
+        "zone": "Zone A",
+        "temperature_c": 39.0,
+        "humidity_pct": 75.0,
+        "aqi": 145.0
+      },
+      {
+        "date": "2026-11-10",
+        "zone": "Zone B",
+        "temperature_c": 30.0,
+        "humidity_pct": 55.0,
+        "aqi": 80.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone B",
+        "temperature_c": 31.0,
+        "humidity_pct": 58.0,
+        "aqi": 85.0
+      }
+    ]
+  },
+  "healthcare": {
+    "uploaded_at": "2026-11-17T07:17:36.050957+00:00",
+    "record_count": 5,
+    "records": [
+      {
+        "date": "2026-11-10",
+        "zone": "Zone A",
+        "visits": 120.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone A",
+        "visits": 135.0
+      },
+      {
+        "date": "2026-11-12",
+        "zone": "Zone A",
+        "visits": 160.0
+      },
+      {
+        "date": "2026-11-10",
+        "zone": "Zone B",
+        "visits": 90.0
+      },
+      {
+        "date": "2026-11-11",
+        "zone": "Zone B",
+        "visits": 95.0
+      }
+    ]
+  }
+}
